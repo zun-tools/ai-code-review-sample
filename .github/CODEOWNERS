@@ -1,0 +1,4 @@
+# 普通の機能は、チームの1人が見る
+/src/        @zun-tools/reviewers
+# CI の設定（.github/ の中）は、必ず人が見る
+/.github/    @zun-tools/reviewers
