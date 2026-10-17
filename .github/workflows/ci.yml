@@ -2,6 +2,8 @@ name: ci
 on:
   push:
   pull_request:
+concurrency:
+  group: ci-${{ github.ref }}
 permissions:
   contents: read
 jobs:
